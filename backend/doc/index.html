@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animations.css">  
+    <link rel="stylesheet" href="css/main.css">  
+    <link rel="stylesheet" href="css/index.css">
+    <title>eDoc</title>
+    <style>
+        table{
+            animation: transitionIn-Y-bottom 0.5s;
+        }
+    </style>
+        
+</head>
+<body>
+    <style>
+        .dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+button{
+  border:none;
+  border-radius:5px;
+  padding:15px 30px;
+  font-size:18px;
+  cursor:pointer;
+}
+
+button:hover{
+  background-color:#ddd;
+}
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color:#fff;
+  border-radius:5px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+}
+
+.dropdown-options a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+  padding:20px 40px;
+}
+
+.dropdown-options a:hover {
+  color: #0a0a23;
+  background-color: #ddd;
+  border-radius:5px;
+}
+    </style>
+    
+    <div class="full-height">
+        <center>
+        <table border="0">
+            <tr>
+                <td width="80%">
+                    <font class="edoc-logo">MedismartPro </font>
+                    <font class="edoc-logo-sub">| HOSPITAL MANAGEMENT SYSTEM</font>
+                </td>
+                <td width="10%">
+                    <div class="dropdown">
+                        <button>LOGIN </button>
+                        <div class="dropdown-options">
+                          <a href="login.php">Users</a>
+                          <a href="Hospital-PHP/backend/admin/index.php">Admin</a>
+                          <a href="Hospital-PHP/backend/doc/index.php">Doctors</a>
+                          <a href="signup.php">User Register</a>
+                          <!-- <a href="Hospital-PHP/backend/Admin2/index.html">HosEnv</a> -->
+                        </div>
+                        
+                      </div>
+                </td>
+                
+            </tr>
+            
+            <tr>
+                <td  colspan="3">
+                    <p class="heading-text">Avoid Hassles & Delays.</p>
+
+                </td>
+            </tr>
+            <tr>
+                <td  colspan="3">
+                    <p class="sub-text2">How is health today, Sounds like not good!<br>Don't worry. Find your doctor online Book as you wish with eDoc. <br>
+                    We offer you a free doctor channeling service, Make your appointment now.</p>
+                </td>
+            </tr>
+            <tr>
+                
+                <td colspan="3">
+                    <center>
+                    <a href="login.php" >
+                        <input type="button" value="Make Appointment" class="login-btn btn-primary btn" style="padding-left: 25px;padding-right: 25px;padding-top: 10px;padding-bottom: 10px;">
+                    </a>
+                </center>
+                </td>
+                
+            </tr>
+            <tr>
+                <td colspan="3">
+                   
+                </td>
+            </tr>
+        </table>
+        <p class="sub-text2 footer-hashen">A Web Solution by Hashen.</p>
+    </center>
+    
+    </div>
+</body>
+</html>

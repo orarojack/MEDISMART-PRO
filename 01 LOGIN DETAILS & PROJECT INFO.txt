@@ -1,0 +1,47 @@
+
+
+**Database Name: hmisphp**
+
+**Developed by Group 4**
+
+**Admin Login Details**
+
+Email   : admin@mail.com
+Password: Password@123
+
+
+**Doctor Login Details**
+
+ID      : F9JBL
+Password: john@123
+
+ID      : Z6VYI
+Password: caroline@123
+
+ID      : 7K9DI
+Password: mito@123          
+
+
+**Users Details**
+Email:        jack@gmail.com
+Password:     jack@123
+
+Email:        admin@gmail.com
+Password:     admin@123
+
+**Doctor int the users app**
+Email: jack2@gmail.com
+Password: jack@123
+
+Email: john2@gmail.com
+Password: john@123
+
+
+**Chatting PLartform**
+Email;        jack2@gmail.com   //Dr Jack Oraro
+Password:     jack@123 
+
+Email:        jack@gmail.com    //Patient Jack
+PasswordL     jack@123
+
+
